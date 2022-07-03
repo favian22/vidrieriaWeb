@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0014C5;
+    /*background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%236200ff' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");*/
+    /*background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");*/
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* navigation */
+
+.nav-main{
+    background: #0014C5;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0px;
+}
+
+.nav-brand{
+    width: 50px;
+    margin-left: 20px;
+}
+
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 10px;
+}
+
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.nav-main ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+.nav-main ul li a{
+    padding: 2px;
+}
+
+hr{
+    margin: 10px 0px;
+}
+
+/*SHOW CASE*/
+
+.showcase{
+    width: 100%;
+    height: 550px;
+    background: url('./img/fachadas-de-vidrio-2.jpg') no-repeat center center/cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn-more{
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 0;
+    background: #0014C5;
+    border: 1px solid #ffffff;
+    margin: 10px 0px;
+    color: #ffffff;
+}
+
+.btn-more:hover{
+    opacity: .9;
+}
+
+.showcase h2,
+.showcase p{
+    
+    margin-bottom:  10px;
+}
+
+.row-card{
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.container-card{
+    margin: 20px 0px;
+}
+
+.quienesSomosContent{
+    height: 550px;
+    background: #0014C5;
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+}
+
+.text-mision{
+    padding-top: 15%;
+    padding-left: 35%;
+    color: #ffffff;
+}
+
+.text-vision{
+    padding-top: 5%;
+    padding-right: 35%;
+    color: #ffffff;
+    margin-left: 20px;
+}
